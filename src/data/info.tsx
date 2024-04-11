@@ -11,15 +11,15 @@ interface Contact{
 export const contact: Contact = {
     address: '23, Nehru Park Road, Vallabh Nagar Indore, Madhya Pradesh, (452003) India',
     location: 'https://maps.app.goo.gl/Sfa8VVWRfyJgYXwr6',
-    email: 'contact@ecellsgsits.com',
+    email: 'gsproductionhouse18@gmail.com',
     call: [
         {
-           name: 'Amrita',
-            phoneNum: '+91 62325 86634' 
+           name: 'Prakhar Mishra',
+            phoneNum: '+91 97952 62432' 
         },
         {
-            name: 'Aahana',
-            phoneNum: '+91 62633 94124'
+            name: 'Varun Yadav',
+            phoneNum: '+91 73899 94443'
         }
     ]
 }

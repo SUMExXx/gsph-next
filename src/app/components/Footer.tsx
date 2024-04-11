@@ -15,6 +15,9 @@ const Footer = () => {
                     <Image src={'/icons/SGSITS-Indore-Logo.png'} className='rounded-full bg-white' width={100} height={100} alt={'GSPH logo'}></Image>
                     <Image src={'/icons/GSPH_Logo.png'} width={100} height={100} alt={'GSPH logo'}></Image>
                 </div>
+                <div className='text-2xl font-bold text-gray-400'>
+                    GS Production House
+                </div>
                 <div className='flex gap-6 justify-center items-center'>
                     {
                         Object.values(socialLinks).map(link => (<Link style={{filter: 'invert(80%)'}} key={crypto.randomUUID()} href={link.url} target='_blank'><Image src={'/icons/'+link.fiIcon} width={24} height={24} alt={link.platform}/></Link>))

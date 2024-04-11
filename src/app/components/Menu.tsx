@@ -23,7 +23,7 @@ const Menu = () =>{
 
             {/* Menu */}
 
-            <div className={`absolute flex md:hidden bg-slate-300 top-[48px] left-0 w-3/4 py-40 transition-transform duration-300 transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`} style={{height: 'calc(100vh - 48px)'}}>
+            <div className={`absolute flex md:hidden bg-slate-300 top-[60px] z-10 left-0 w-3/4 py-40 transition-transform duration-300 transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} glass-container bg-opacity-50 backdrop-filter backdrop-blur-md p-4 rounded-r-lg shadow-lg`} style={{height: 'calc(100vh - 60px)'}}>
                 <ul className='flex flex-col items-center justify-center md:gap-8 gap-2 w-full text-3xl'>
                     <li className='items-center justify-center gap-8 flex flex-col w-full'>
                         <li className='flex justify-center items-center'>

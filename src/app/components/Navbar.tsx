@@ -11,20 +11,20 @@ import Menu from './Menu';
 const Navbar = () => {
 
   return (
-    <nav className='top-0 left-0 right-0 z-10 flex fixed justify-between bg-white text-black w-full lg:px-10 px-2 py-2 lg:py-3 h-[40]'>
+    <nav className='top-0 left-0 right-0 z-20 flex fixed justify-between bg-white text-black w-full lg:px-10 px-2 h-[60px] md:h-[84px]'>
         
         <Link href={'/'} className='flex items-center gap-2 md:gap-4 min-w-[110px]'>
             <div className='flex items-center'>
-                <Image src={'/icons/GSPH_Logo.png'} width={60} height={60} alt={'GSPH logo'} className='md:w-[60px] md:h-[60px] w-[30px] h-[30px]'></Image>
+                <Image src={'/icons/GSPH_Logo.png'} width={60} height={60} alt={'GSPH logo'} className='md:w-[60px] md:h-[60px] w-[40px] h-[40px]'></Image>
             </div>
             <div className='flex items-center'>
-                <Image src={'/icons/GSPH_Text.png'} width={110} height={30} alt={'Store-E name-logo'} className='md:w-[110px] md:h-[30px] w-[55px] h-[15px]'/>
+                <Image src={'/icons/GSPH_Text.png'} width={110} height={30} alt={'Store-E name-logo'} className='md:w-[110px] md:h-[30px] w-[70px] h-[19px]'/>
             </div>
         </Link>
 
         <div className='flex md:gap-24 gap-2 justify-end'>
 
-            <div className='flex w-full items-center justify-center'>
+            <div className='w-full items-center justify-center md:flex hidden'>
 
                 <ul className='items-center md:gap-8 gap-2 font-medium md:flex hidden'>
                     <li className='flex justify-center items-center'>
