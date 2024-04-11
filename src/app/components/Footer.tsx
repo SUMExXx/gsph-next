@@ -9,7 +9,7 @@ import socialLinks from '@/data/social'
 const Footer = () => {
   return (
     <div className='w-full flex flex-col justify-center bg-black' id='contact'>
-        <div className='w-full flex flex-wrap gap-24 justify-center px-24 py-16'>
+        <div className='w-full flex flex-wrap gap-8 md:gap-24 justify-center px-6 md:px-24 py-6 md:py-16'>
             <div className='flex flex-col gap-6'>
                 <div className='flex gap-10 justify-center items-center'>
                     <Image src={'/icons/SGSITS-Indore-Logo.png'} className='rounded-full bg-white' width={100} height={100} alt={'GSPH logo'}></Image>
@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
         <div className="w-full h-[1px] bg-gray-800">
         </div>
-        <div className='px-24 py-6 flex justify-center items-center text-gray-400'>
+        <div className='px-2 md:px-6 py-2 md:py-6 flex justify-center items-center text-sm text-gray-400'>
             © GS Production House 2024
         </div>
         

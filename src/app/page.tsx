@@ -2,10 +2,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        Coming soon
-      </div>
+    <main className="w-full">
+      <video autoPlay muted loop className="w-full object-cover h-[800px]">
+        <source src={'/videos/aftermovie.mp4'} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </main>
   );
 }

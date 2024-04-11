@@ -14,7 +14,7 @@ export default function Team() {
             {dep.map((dept, i) =>{
                 return (
                     <div key={i} className='team-dept-container'>
-                        <h3 className='dept-name text-3xl'>{dept.department}</h3>
+                        <h3 className='dept-name text-black text-3xl'>{dept.department}</h3>
                         <div className='dept-container'>
                             {dept.heads.map((h, j)=>{
                                 return(

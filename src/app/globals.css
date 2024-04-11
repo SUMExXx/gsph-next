@@ -6,13 +6,43 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+/* styles/Scrollbar.css */
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #0075BB;
+    /* Color of the scrollbar handle */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Color of the scrollbar handle on hover */
+  }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 220, 220, 220;
+    --background-end-rgb: 220, 220, 220;
   }
 }
 
@@ -20,11 +50,15 @@ body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
-      transparent,
+      #f8f8f8,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
 }
+
+/* body{
+  background-color: #F8F8F8;
+} */
 
 @layer utilities {
   .text-balance {
