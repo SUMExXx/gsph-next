@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className='w-full flex flex-col justify-center bg-black' id='contact'>
         <div className='w-full flex flex-wrap gap-8 md:gap-24 justify-center px-6 md:px-24 py-6 md:py-16'>
-            <div className='flex flex-col gap-6'>
+            <div className='flex flex-col gap-6 p-10 md:p-0'>
                 <div className='flex gap-10 justify-center items-center'>
                     <Image src={'/icons/SGSITS-Indore-Logo.png'} className='rounded-full bg-white' width={100} height={100} alt={'GSPH logo'}></Image>
                     <Image src={'/icons/GSPH_Logo.png'} width={100} height={100} alt={'GSPH logo'}></Image>
