@@ -93,3 +93,74 @@ export const socialMediaReach: SocialMediaReach[] = [
         url: 'https://www.youtube.com/@GSProductionHouse/'
     }
 ]
+
+interface YTVideo{
+  url: string,
+  title: string
+};
+
+interface InstaPost{
+    url: string,
+    title: string
+}
+
+interface Featured{
+    yt: YTVideo[],
+    ig: InstaPost[]
+}
+
+export const featured: Featured = {
+    yt: [
+        {
+            url: 'https://www.youtube.com/embed/xdKeIQBWub0?si=ZqKT_OTj0CQQqxqq',
+            title: 'SGSITS Campus Tour'
+        },
+        {
+            url: 'https://www.youtube.com/embed/mffW_AIrX5c?si=OLsumsTPf9PvN8lM',
+            title: '4 years of GSPH'
+        },
+        {
+            url: 'https://www.youtube.com/embed/J8eLGnC4xtM?si=ylQAJgN76Y6JgNSr',
+            title: 'Fresher\'s Introduction 2022'
+        },
+        {
+            url: "https://www.youtube.com/embed/XOUEZnljqHk?si=8tZkmiTGJ6xQRyny",
+            title: 'Ganesh Chaturthi'
+        },
+        {
+            url: "https://www.youtube.com/embed/y_MIW9DXfiQ?si=R-VgWBWmDTPKMZ8s",
+            title: 'Independence Day Celebrations'
+        },
+        {
+            url: "https://www.youtube.com/embed/UqqrY8sz7Ec?si=bv5jIEjaccyBCQUv",
+            title: 'Krishna Flute Theme'
+        }
+    ],
+
+    ig: [
+        {
+            url: 'https://www.instagram.com/p/C3ezsjFPN94/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+            title: 'KHOJ- Kapture Haunt Of Joy'
+        },
+        {
+            url: 'https://www.instagram.com/p/CyLOcTCteZG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+            title: 'KHOJ- Kapture Haunt Of Joy'
+        },
+        {
+            url: 'https://www.instagram.com/p/Cu6euJ9p2NY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+            title: 'Digital Dastaan'
+        },
+        {
+            url: 'https://www.instagram.com/p/CpiPe6Mtm_P/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+            title: 'POLAROID - The First Shot'
+        },
+        {
+            url: 'https://www.instagram.com/p/CcCcNvzJZ2H/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+            title: 'Scen-e-Matic: Frame your shot!'
+        },
+        {
+            url: 'https://www.instagram.com/p/CbpADfPJitI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+            title: 'AFSAANE - A Euphorian Tale'
+        }
+    ]
+}
