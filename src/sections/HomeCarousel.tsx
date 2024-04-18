@@ -18,7 +18,7 @@ const HomeCarousel = () => {
   var l = 0;
 
   return (
-    <div className="flex justify-start items-center w-full">
+    <div className="flex justify-start items-center w-full overflow-hidden">
       <Swiper
         cssMode={true}
         navigation={true}
@@ -48,12 +48,12 @@ const HomeCarousel = () => {
             <iframe width="300" height="168" src={featured.yt[1].url} className='md:rounded-2xl rounded-lg' title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen>
 
             </iframe>
-            <Link href={featured.ig[0].url+'?autoplay=0'} target="_blank">
+            <Link href={featured.yt[0].url+'?autoplay=0'} target="_blank">
               <iframe width="120" height="67" src={featured.yt[0].url} className='md:rounded-2xl rounded-lg' title="YouTube video player" frameBorder="0" referrerPolicy="strict-origin-when-cross-origin" style={{pointerEvents: 'none'}}>
 
               </iframe>
             </Link>
-            <Link href={featured.ig[2].url+'?autoplay=0'} target="_blank">
+            <Link href={featured.yt[2].url+'?autoplay=0'} target="_blank">
               <iframe width="120" height="67" src={featured.yt[2].url} className='md:rounded-2xl rounded-lg' title="YouTube video player" frameBorder="0" referrerPolicy="strict-origin-when-cross-origin" style={{pointerEvents: 'none'}}>
 
               </iframe>

@@ -3,6 +3,7 @@ import Image from "next/image";
 import '@/app/css/Team.css';
 import dep from "@/data/team";
 import TeamCard from "../components/TeamCard";
+import Reveal from "../components/Reveal";
 
 export default function Team() {
   return (
@@ -14,11 +15,11 @@ export default function Team() {
             {dep.map((dept, i) =>{
                 return (
                     <div key={i} className='team-dept-container'>
-                        <h3 className='dept-name text-black text-3xl'>{dept.department}</h3>
+                        <Reveal><h3 className='dept-name text-black text-3xl'>{dept.department}</h3></Reveal>
                         <div className='dept-container'>
                             {dept.heads.map((h, j)=>{
                                 return(
-                                    <TeamCard key={j} image={h.image} name={h.name} role={h.role} instagram={h.instagram} linkedin={h.linkedin}/>
+                                    <Reveal key={j}><TeamCard key={j} image={h.image} name={h.name} role={h.role} instagram={h.instagram} linkedin={h.linkedin}/></Reveal>
                                 )
                             })}
                             

@@ -20,7 +20,7 @@ interface TeamCardProps{
 const TeamCard = ({name, role, image, instagram, linkedin}: TeamCardProps) => {
 
   return (
-    <div className='team-card bg-white'>
+    <div className='team-card bg-white hover:shadow-2xl transform transition duration-500'>
       <div className='team-card-container'>
         <div className='image-circle-pink'>
           <div className='image-circle-white'>

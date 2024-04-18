@@ -1,4 +1,5 @@
 // Image optimisation : /w_500/q_auto/f_auto
+// https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233350/gsph/cauxucwjuwwii4t6bkj7.jpg
 
 interface Head{
   image: string,
@@ -18,7 +19,7 @@ export const dep: Dep[]= [
     department: "President",
     heads: [
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477369/gsph/members/nsjlrospbvt67liyacir.jpg",
         name: "Prakhar Mishra",
         role: "President",
         instagram: "https://www.instagram.com/prakhar_2809/",
@@ -30,14 +31,14 @@ export const dep: Dep[]= [
     department: "Vice President",
     heads: [
       {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233368/gsph/j0gandmmgj4sbbtx64k2.jpg",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477599/gsph/members/bnijghng4hi5n9jk9frq.webp",
         name: "Nishit Jain",
         role: "Vice President",
         instagram: "https://www.instagram.com/j_nishit/",
         linkedin: "https://www.linkedin.com/in/nishit-jain-/",
       },
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477988/gsph/members/q4fz0ahnbrt6gh4jpn5d.png",
         name: "Varun Yadav",
         role: "Vice President",
         instagram: "https://www.instagram.com/turrrbulent/",
@@ -49,14 +50,14 @@ export const dep: Dep[]= [
     department: "Content",
     heads: [
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713478189/gsph/members/q5vwnbcw2pfwfpos5oke.jpg",
         name: "Shivansh Jain",
         role: "Head, Content",
         instagram: "https://www.instagram.com/shivansh_code_piano/",
         linkedin: "https://www.linkedin.com/in/shivansh-jain-921967224/",
       },
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713478302/gsph/members/x1ncz8pcxsgybmhh41x6.jpg",
         name: "Sumit Gupta",
         role: "Head, Content",
         instagram: "https://www.instagram.com/guptasumit_2034/",
@@ -68,15 +69,15 @@ export const dep: Dep[]= [
     department: "Design",
     heads: [
       {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/v1696188883/gsph/cxtw1joimjinqjsuaxde.png",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477051/gsph/members/mg4t58gl6rgfxwg5mgob.png",
         name: "Suman Debnath",
         role: "Head, Design",
         instagram: "https://www.instagram.com/sumex.in/",
         linkedin: "https://www.linkedin.com/in/suman-debnath6/",
       },
       {
-        image: "",
-        name: "Shivam Bhatiya",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713478427/gsph/members/jqq1rhcqscyzuofmcvii.jpg",
+        name: "Shivam Bhatia",
         role: "Head, Design",
         instagram: "https://www.instagram.com/shivam_bhatiaa/",
         linkedin: "https://www.linkedin.com/in/shivam-bhatia03/",
@@ -87,14 +88,14 @@ export const dep: Dep[]= [
     department: "Management",
     heads: [
       {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233352/gsph/nhh0mzlhyhpfcnvtlzwa.jpg",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477050/gsph/members/sgm23ackwaf0uxnc9gxp.jpg",
         name: "Namrata Vaswani",
         role: "Head, Management",
         instagram: "https://www.instagram.com/namrata___v/",
         linkedin: "https://www.linkedin.com/in/namrata-vaswani-915a501b2/",
       },
       {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233350/gsph/cauxucwjuwwii4t6bkj7.jpg",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477051/gsph/members/feyzkg9ygacrzubdzet1.jpg",
         name: "Saksham Dariya",
         role: "Head, Management",
         instagram: "https://www.instagram.com/_skkssmm_/",
@@ -106,14 +107,14 @@ export const dep: Dep[]= [
     department: "Operations",
     heads: [
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713478833/gsph/members/xe0jbf66dhfu8hiyamnp.jpg",
         name: "Gargi Maheshwari",
         role: "Head, Operations",
         instagram: "https://www.instagram.com/gargi_109/",
         linkedin: "https://www.linkedin.com/in/gargi-maheshwari-7892b7240/",
       },
       {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233354/gsph/a18biai4klqf1tqs1eff.jpg",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477050/gsph/members/uk9w4mmxc6yscly2uxgj.jpg",
         name: "Mayank Rampure",
         role: "Head, Operations",
         instagram: "https://www.instagram.com/mayankrampure_4506/",
@@ -125,7 +126,7 @@ export const dep: Dep[]= [
     department: "Finance",
     heads: [
       {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233351/gsph/iwfr97oguidawt7qivcj.jpg",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477050/gsph/members/dbiiyagqcwwf4tzzts14.jpg",
         name: "Tanay Agrawal",
         role: "Head, Finance",
         instagram: "https://www.instagram.com/its_tanayagl/",
@@ -137,14 +138,14 @@ export const dep: Dep[]= [
     department: "Public Relations",
     heads: [
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713478975/gsph/members/njehqoyl4lx0nqv3sqro.jpg",
         name: "Nihal Shivhare",
         role: "Head, Public Relations",
         instagram: "https://www.instagram.com/nihal_shivhare_/",
         linkedin: "https://www.linkedin.com/in/nihal-shivhare-5870b91b9/",
       },
       {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233365/gsph/yeit82raqfhiykayjdll.jpg",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477053/gsph/members/twfreyvbczhrhkm9nim9.jpg",
         name: "Swasti Kataria",
         role: "Head, Public Relations",
         instagram: "https://www.instagram.com/swastikataria/",
@@ -156,64 +157,31 @@ export const dep: Dep[]= [
     department: "External Affairs",
     heads: [
       {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233349/gsph/isxoywospxsez0x5coeq.jpg",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477049/gsph/members/wazhe8hatoevmvkbl46n.jpg",
         name: "Shubhra Gite",
         role: "Head, External Affairs",
         instagram: "https://www.instagram.com/shubhragite/",
         linkedin: "",
       },
-      {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233353/gsph/ubzqa4slc8ftlj0k7eoj.heic",
-        name: "Yash Garwal",
-        role: "Head, External Affairs",
-        instagram: "https://www.instagram.com/yash_garwal01/",
-        linkedin: "https://www.linkedin.com/in/yash-garwal-0174a6276/",
-      },
     ],
   },
   {
-    department: "Marketing and Promotions",
+    department: "Marketing & Promotions",
     heads: [
       {
-        image: "",
-        name: "Amrita Pandey",
-        role: "Head, Marketing and Promotions",
-        instagram: "https://www.instagram.com/amrita.pandey26/",
-        linkedin: "https://www.linkedin.com/in/amritapandey26/",
-      },
-      {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713479857/gsph/members/wyilesg1pf4ua8d0sxwt.jpg",
         name: "Mitali Khare",
-        role: "Head, Marketing and Promotions",
+        role: "Head, Marketing & Promotions",
         instagram: "https://www.instagram.com/mit_1127/",
         linkedin: "https://www.linkedin.com/in/mitali-khare-41b420228/",
       },
-      {
-        image: "",
-        name: "Vaidehi Khande",
-        role: "Head, Marketing and Promotions",
-        instagram: "https://www.instagram.com/_vaidehi26_/",
-        linkedin: "https://www.linkedin.com/in/vaidehi-khande-014386274/",
-      },
     ],
   },
   {
-    department: "Cinematography",
+    department: "Cinematography & Videography",
     heads: [
       {
-        image: "",
-        name: "Hrishab Sharma",
-        role: "Head, Cinematography",
-        instagram: "https://www.instagram.com/hrishabh5216/",
-        linkedin: "",
-      },
-    ],
-  },
-  {
-    department: "Videography",
-    heads: [
-      {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713479372/gsph/members/kdurokfhqzkskl1sa7kj.jpg",
         name: "Aagam Ji Jain",
         role: "Head, Videography",
         instagram: "https://www.instagram.com/aagamjee/",
@@ -225,49 +193,42 @@ export const dep: Dep[]= [
     department: "Executive Body",
     heads: [
       {
-        image: "",
-        name: "Amit More",
-        role: "Executive Body Member",
-        instagram: "https://www.instagram.com/itsamitmore/",
-        linkedin: "https://www.linkedin.com/in/amit-more-62bb4826a/",
-      },
-      {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713479519/gsph/members/fe2lrwdgbk6drdh2bxkz.jpg",
         name: "Divyanshi Sharma",
         role: "Executive Body Member",
         instagram: "https://www.instagram.com/divyanshiii__sharmaa/",
         linkedin: "https://www.linkedin.com/in/divyanshi--sharma/",
       },
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713479741/gsph/members/fhncsdhp8g2ndhgrtna1.jpg",
         name: "Divyanshu Jain",
         role: "Executive Body Member",
-        instagram: "https://www.instagram.com/divyanshu._jain._/",
+        instagram: "https://www.instagram.com/divyanshu2920/",
         linkedin: "https://www.linkedin.com/in/divyanshu-jain-1279a623a/",
       },
       {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233359/gsph/kk4cgyuytwlzhodezt6t.jpg",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477050/gsph/members/bpfmajmeonw8ouuocyng.jpg",
         name: "Kamlesh Pancholi",
         role: "Executive Body Member",
         instagram: "https://www.instagram.com/kamlesh_pancholi_92/",
         linkedin: "https://www.linkedin.com/in/kamlesh-pancholi-7a5a27224/",
       },
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713479969/gsph/members/fxih7h9xvkecvmo9f5j0.jpg",
         name: "Khushi Jain",
         role: "Executive Body Member",
         instagram: "https://www.instagram.com/khushi_jain.018/",
         linkedin: "https://www.linkedin.com/in/khushi-jain-918882232/",
       },
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713480042/gsph/members/wwt7bgz2cugwklrwvcig.jpg",
         name: "Meet Jain",
         role: "Executive Body Member",
         instagram: "https://www.instagram.com/meetj.jain/",
         linkedin: "https://www.linkedin.com/in/meet-jain-88a56525b/",
       },
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713480195/gsph/members/le6abe0nfpqkklzgkq6x.jpg",
         name: "Poorvi Shrivastav",
         role: "Executive Body Member",
         instagram: "https://www.instagram.com/poorvii11__/",
@@ -279,14 +240,14 @@ export const dep: Dep[]= [
     department: "Coordinator",
     heads: [
       {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233351/gsph/amem7r1h6vckxdysdca3.jpg",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477050/gsph/members/qfkjik6xqqtptm3oacem.jpg",
         name: "Akshat Mishra",
         role: "Overall Coordinator",
         instagram: "https://www.instagram.com/akxt_1509/",
         linkedin: "https://www.linkedin.com/in/akshat-mishra-27769a276/",
       },
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713480429/gsph/members/z4drw3b7igcal5w4s6dn.jpg",
         name: "Harsh Upadhyay",
         role: "Overall Coordinator",
         instagram: "https://www.instagram.com/harshupadhyay.13/",
@@ -294,35 +255,35 @@ export const dep: Dep[]= [
           "https://www.linkedin.com/in/harsh-vardhan-upadhyay-83192218b/",
       },
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713480542/gsph/members/rixknckgotsll9mf1v1n.jpg",
         name: "Irfan Shekh",
         role: "Overall Coordinator",
         instagram: "https://www.instagram.com/irfan_1703_/",
         linkedin: "https://www.linkedin.com/in/irfan-shekh-698544204/",
       },
       {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233353/gsph/b6lrrspwuuvuid4hjmin.jpg",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713480628/gsph/members/e9liskr0bb3mhjbtz25j.jpg",
         name: "Jigyasa Barge",
         role: "Overall Coordinator",
         instagram: "https://www.instagram.com/jigyasa_barge/",
         linkedin: "https://www.linkedin.com/in/jigyasa-barge-b24187210/",
       },
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713480842/gsph/members/x8nmspyactjacd2nkw3y.jpg",
         name: "Ritisha Tatwade",
         role: "Overall Coordinator",
         instagram: "https://www.instagram.com/imritisha/",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/ritisha-tatwade-7840751bb/",
       },
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713481025/gsph/members/zajrhlccob343nsb1l3c.jpg",
         name: "Shrishti Bhadoriya",
         role: "Overall Coordinator",
         instagram: "https://www.instagram.com/shrishti__282/",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/shrishti-bhadoriya-2206a221b/",
       },
       {
-        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1696233351/gsph/q2hrx2fijszbtnhkgvt2.jpg",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713477049/gsph/members/cjo04wwbiaykpfjnog9g.jpg",
         name: "Swayam Gaba",
         role: "Overall Coordinator",
         instagram: "https://www.instagram.com/swayamgaba99/",
@@ -334,26 +295,25 @@ export const dep: Dep[]= [
     department: "Advisory Board",
     heads: [
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713481421/gsph/members/ql7k6et7tmojafapmkx0.jpg",
         name: "Kshitiz Saxena",
         role: "Advisory Board Member",
         instagram: "https://www.instagram.com/kshitizsaxenaaa/",
         linkedin: "https://www.linkedin.com/in/kshitiz-saxena-068968212/",
       },
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713481310/gsph/members/ygblkyfw1rpq7b7zd7y7.jpg",
         name: "Shruti Chaturvedi",
         role: "Advisory Board Member",
         instagram: "https://www.instagram.com/__s.h.h.h.h__/",
         linkedin: "https://www.linkedin.com/in/shruti-chaturvedi-755230218/",
       },
       {
-        image: "",
+        image: "https://res.cloudinary.com/deeqsba43/image/upload/w_500/q_auto/f_auto/v1713481223/gsph/members/wdxd0q4ipebbbnfqaefy.jpg",
         name: "Shruti Kulshrestha",
         role: "Advisory Board Member",
         instagram: "https://www.instagram.com/_.shruttiii._/",
-        linkedin:
-          "https://www.linkedin.com/in/shruti-kulshreshtha-41b02a203/",
+        linkedin: "https://www.linkedin.com/in/shruti-kulshreshtha-41b02a203/",
       },
     ],
   },

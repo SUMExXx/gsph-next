@@ -28,7 +28,7 @@ const Navbar = () => {
 
                 <div className='items-center md:gap-8 gap-2 font-medium md:flex hidden'>
                     <div className='flex justify-center items-center'>
-                        <Link href={'/'} className='flex justify-center items-baseline px-2 pt-2 pb-1 gap-1 rounded-md bg-[#CBE6E8]'>
+                        <Link href={'/'} className='flex justify-center items-baseline px-2 pt-2 pb-1 gap-1 rounded-md bg-[#CBE6E8] transition ease-in-out hover:-translate-y-1'>
                             <span>POV</span>
                             <Image src="/icons/sparkles.svg" height={16} width={16} alt='New Event'/>
                         </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <ul className='items-center gap-8 font-medium md:flex hidden'>
                         {
                             navbarLinks.map(item => (
-                                <li key={crypto.randomUUID()}>
+                                <li key={crypto.randomUUID()} className='transition ease-in-out hover:scale-110'>
                                     <Link href={item.link}>{item.text}</Link>
                                 </li>
                             ))

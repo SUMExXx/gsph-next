@@ -21,7 +21,7 @@ const HomeSocialSection = async () =>{
         <div className="flex flex-wrap md:gap-24 gap-8">
             {
               socialMediaReach.map(item =>(
-                <Link href={item.url} target='_blank' key={m++} className="md:rounded-3xl rounded-lg py-2 md:py-10 px-6 md:px-24 bg-white flex flex-col md:gap-4 gap-2 justify-center items-center" style={{boxShadow: '0px 4px 75px 0px rgba(0, 0, 0, 0.25)', borderRadius: '20px'}}>
+                <Link href={item.url} target='_blank' key={m++} className="md:rounded-3xl rounded-lg py-2 md:py-10 px-6 md:px-24 bg-white flex flex-col md:gap-4 gap-2 justify-center items-center transition ease-in-out hover:scale-110" style={{boxShadow: '0px 4px 75px 0px rgba(0, 0, 0, 0.25)', borderRadius: '20px'}}>
                   <Image src={item.icon} alt='instagram logo' height={100} width={100}/>
                   <Image src={item.textIcon} alt='instagram logo' height={29} width={100} className=""/>
                   <CountingNumber number={socialCountList[i++]} />
