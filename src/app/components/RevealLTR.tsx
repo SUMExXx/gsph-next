@@ -8,7 +8,7 @@ interface props{
     width?: 'fit-content' | '100%'
 }
 
-const Reveal = ({children, width= 'fit-content'} : props) => {
+const RevealLTR = ({children, width= 'fit-content'} : props) => {
 
     const ref = useRef(null);
     const isInView = useInView(ref, {once: false})  //set optional parameter {once: true} if you want it to animate only once
@@ -27,8 +27,8 @@ const Reveal = ({children, width= 'fit-content'} : props) => {
         <div ref={ref} className={`relative w-[${width}]`}>
             <motion.div
                 variants={{
-                    hidden: {opacity: 0, y: 75},
-                    visible: {opacity: 1, y: 0}
+                    hidden: {opacity: 0, x: -1000},
+                    visible: {opacity: 1, x: 0}
                 }}
                 initial='hidden'
                 animate={mainControls}
@@ -42,4 +42,4 @@ const Reveal = ({children, width= 'fit-content'} : props) => {
     )
 }
 
-export default Reveal;
+export default RevealLTR;

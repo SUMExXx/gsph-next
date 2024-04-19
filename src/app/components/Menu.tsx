@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import Image from "next/image"
 import Link from 'next/link';
 
+import { navbarLatest } from '@/data/website';
+
 import { navbarLinks } from '@/data/website';
 
 const Menu = () =>{
@@ -27,7 +29,7 @@ const Menu = () =>{
                 <div className='flex flex-col items-center justify-center md:gap-8 gap-2 w-full text-3xl'>
                     <ul className='items-center justify-center gap-8 flex flex-col w-full'>
                         <li className='flex justify-center items-center'>
-                            <Link href={'/'} className='flex justify-center items-baseline px-2 pt-2 pb-1 gap-1 rounded-md bg-[#CBE6E8]'>
+                            <Link href={`/events#${navbarLatest.id}`} className='flex justify-center items-baseline px-2 pt-2 pb-1 gap-1 rounded-md bg-[#CBE6E8]'>
                                 <span>POV</span>
                                 <Image src="/icons/sparkles.svg" height={16} width={16} alt='New Event'/>
                             </Link>

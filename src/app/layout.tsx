@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={josefinSans.className}>
         <Navbar/>
-          <div className='mt-[48px] md:mt-[84px]'>
+          <div className='mt-[48px] md:mt-[84px] text-black'>
             {children}
           </div>
         <Footer/>

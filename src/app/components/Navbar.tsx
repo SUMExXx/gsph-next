@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { navbarLinks } from '@/data/website';
+import { navbarLatest, navbarLinks } from '@/data/website';
 import socialLinks from '@/data/social';
 import HomeSocialIcon from './HomeSocialIcon';
 import Menu from './Menu';
@@ -28,7 +28,7 @@ const Navbar = () => {
 
                 <div className='items-center md:gap-8 gap-2 font-medium md:flex hidden'>
                     <div className='flex justify-center items-center'>
-                        <Link href={'/'} className='flex justify-center items-baseline px-2 pt-2 pb-1 gap-1 rounded-md bg-[#CBE6E8] transition ease-in-out hover:-translate-y-1'>
+                        <Link href={`/events#${navbarLatest.id}`} className='flex justify-center items-baseline px-2 pt-2 pb-1 gap-1 rounded-md bg-[#CBE6E8] transition ease-in-out hover:-translate-y-1'>
                             <span>POV</span>
                             <Image src="/icons/sparkles.svg" height={16} width={16} alt='New Event'/>
                         </Link>

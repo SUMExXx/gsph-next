@@ -7,9 +7,9 @@ import Reveal from "../components/Reveal";
 
 export default function Team() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-2">
+    <main className="flex min-h-screen flex-col items-center justify-between p-2 text-center">
       <div className='team-container'>
-        <h3 className='team-head text-[#0075BB]'>Meet our Team</h3>
+        <Reveal><h3 className='team-head text-[#0075BB] text-[48px]'>Meet our Team</h3></Reveal>
         <div className='team-hr'/>
         <div className='team-dept-flex'>
             {dep.map((dept, i) =>{

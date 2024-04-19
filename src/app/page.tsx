@@ -1,6 +1,6 @@
 import { socialMediaReach, updateableLinks } from "@/data/website";
 import Image from "next/image";
-import getSubscriberCount from "@/app/files/getSubscriberCount";
+import getSubscriberCount from "@/app/utils/getSubscriberCount";
 import HomeSocialSection from "@/sections/HomeSocialSection";
 import HomeCarousel from "@/sections/HomeCarousel";
 import React, { MouseEventHandler } from 'react';

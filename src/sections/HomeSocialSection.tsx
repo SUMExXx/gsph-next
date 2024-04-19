@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { socialMediaReach } from "@/data/website";
-import getSubscriberCount from "@/app/files/getSubscriberCount";
+import getSubscriberCount from "@/app/utils/getSubscriberCount";
 import CountingNumber from "@/app/components/CountingText";
 
 const HomeSocialSection = async () =>{
