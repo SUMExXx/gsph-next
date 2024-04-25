@@ -29,14 +29,14 @@ const Navbar = () => {
                 <div className='items-center md:gap-8 gap-2 font-medium md:flex hidden'>
                     <div className='flex justify-center items-center'>
                         <Link href={`/events#${navbarLatest.id}`} className='flex justify-center items-baseline px-2 pt-2 pb-1 gap-1 rounded-md bg-[#CBE6E8] transition ease-in-out hover:-translate-y-1'>
-                            <span>POV</span>
+                            <h1 className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent'>POV</h1>
                             <Image src="/icons/sparkles.svg" height={16} width={16} alt='New Event'/>
                         </Link>
                     </div>
                     <ul className='items-center gap-8 font-medium md:flex hidden'>
                         {
                             navbarLinks.map(item => (
-                                <li key={crypto.randomUUID()} className='transition ease-in-out hover:scale-110'>
+                                <li key={crypto.randomUUID()} className='transition ease-in-out hover:scale-110 hover:animate-text hover:bg-gradient-to-r hover:from-[#A055C2] hover:via-[#D4256F] hover:to-[#F59009] hover:bg-clip-text hover:text-transparent'>
                                     <Link href={item.link}>{item.text}</Link>
                                 </li>
                             ))

@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={josefinSans.className}>
+      <body className={`${josefinSans.className} antialiased`}>
         <Navbar/>
           <div className='mt-[48px] md:mt-[84px] text-black'>
             {children}

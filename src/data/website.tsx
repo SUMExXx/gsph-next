@@ -72,6 +72,11 @@ export const footerData: FooterData = {
     ]
 }
 
+export const SlidingTextData = {
+    sentence: 'The Media Production Club of SGSITS and the home of',
+    texts: ['Creativity', 'Passion', 'Media', 'Design', 'Self Expression', 'Creativity', ] //Put the first one also in the last
+}
+
 interface UpdateableLinks{
     latestVideo: string
 }
@@ -234,7 +239,7 @@ export const events : Event[] = [
 ]
 
 export const customColors = {
-    home: ['rgba(96, 165, 250, 0.9)', 'rgba(167, 139, 250, 0.9)', 'rgba(254, 178, 178, 0.9)', 'rgba(52, 211, 153, 0.9)']
+    home: ['rgba(96, 165, 250, 0.9)', 'rgba(167, 139, 250, 0.9)', 'rgba(254, 178, 178, 0.9)', 'rgba(52, 211, 153, 0.9)', 'rgba(0, 0, 0, 0.95)',]
 }
 
 export const aboutUsContent = {
