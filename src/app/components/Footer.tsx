@@ -3,20 +3,23 @@ import Image from 'next/image'
 import React from 'react'
 
 import { contact } from '@/data/info'
-import { footerData, navbarLinks } from '@/data/website'
+import { club, events, footerData, navbarLinks } from '@/data/website'
 import socialLinks from '@/data/social'
 
 const Footer = () => {
   return (
     <div className='w-full flex flex-col justify-center bg-black' id='contact'>
         <div className='w-full flex flex-wrap gap-8 md:gap-24 justify-center px-6 md:px-24 py-6 md:py-16'>
-            <div className='flex flex-col gap-6 p-10 md:p-0'>
+            <div className='flex flex-col gap-6 p-10 md:p-0 items-center justify-center'>
                 <div className='flex gap-10 justify-center items-center'>
                     <Image src={'/icons/SGSITS-Indore-Logo.png'} className='rounded-full bg-white' width={100} height={100} alt={'GSPH logo'}></Image>
                     <Image src={'/icons/GSPH_Logo.png'} width={100} height={100} alt={'GSPH logo'}></Image>
                 </div>
-                <div className='text-2xl font-bold text-gray-400'>
-                    GS Production House
+                <div className='text-2xl font-bold text-gray-400 text-center'>
+                    {
+                        club.name
+                    }
+                    <h4 className='text-sm font-medium text-gray-500'>{club.motto}</h4>
                 </div>
                 <div className='flex gap-6 justify-center items-center'>
                     {
@@ -40,9 +43,9 @@ const Footer = () => {
                 <h3 className='text-gray-300 font-bold'>EVENTS</h3>
                 <ul className='flex flex-col text-gray-400'>
                     {
-                        footerData.events.map((item) => {
+                        events.map((event) => {
                             return(
-                                <li key={crypto.randomUUID()}><Link href={item.link}>{item.text}</Link></li>
+                                <li key={crypto.randomUUID()}><Link href={`/events#${event.id}`}>{event.name}</Link></li>
                             )
                         })
                     }

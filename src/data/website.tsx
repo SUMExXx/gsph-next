@@ -1,5 +1,11 @@
 import getSubscriberCount from "@/app/utils/getSubscriberCount"
 
+export const club = {
+    name: 'GS Production House',
+    motto: 'Fed by Talents, Led by Creations',
+    teamImage: 'https://res.cloudinary.com/deeqsba43/image/upload/w_1000/q_auto:best/f_auto/v1714013551/gsph/images/ehevpjxsckfunnxvuxom.jpg'
+}
+
 interface WebData{
     title: string,
     description: string
@@ -224,5 +230,32 @@ export const events : Event[] = [
             'https://res.cloudinary.com/deeqsba43/image/upload/w_1000/q_auto:good/f_auto/v1713556343/gsph/events/polaroid/glk2w3a7lzjyzumhibwf.jpg',
             'https://res.cloudinary.com/deeqsba43/image/upload/w_1000/q_auto:good/f_auto/v1713556343/gsph/events/polaroid/apuu2jug2cxvop8b65wm.png',
         ]
+    }
+]
+
+export const customColors = {
+    home: ['rgba(96, 165, 250, 0.9)', 'rgba(167, 139, 250, 0.9)', 'rgba(254, 178, 178, 0.9)', 'rgba(52, 211, 153, 0.9)']
+}
+
+export const aboutUsContent = {
+    aboutUs: "GS Production House, founded in 2018, is a creative collective dedicated to the art of videography and filmmaking. Our club comprises passionate individuals who share a love for storytelling through the lens of a camera. With a primary focus on videography, design, and film making, GS Production House aims to nurture and showcase talent in these fields. At GS Production House, we believe in the power of visual storytelling to captivate audiences and evoke emotions. Through a series of events, workshops, and contests, we provide our members with opportunities to hone their skills, explore new techniques, and unleash their creativity. From cinematography to video editing, from scriptwriting to directing, we cover various aspects of videography and filmmaking. In addition to technical skills, we also emphasize the importance of artistic expression and creativity. Our events often feature a touch of poetry and charisma, adding depth and soul to our productions. Whether it's capturing the beauty of everyday life or delving into complex narratives, we strive to create meaningful and impactful visual experiences. Through collaborations with industry professionals and organizations, we manage to showcase the best of our creativities. Our goal is to empower aspiring filmmakers and videographers with the knowledge, resources, and support they need to bring their visions to life. We are GS Production House, where creativity meets craftsmanship, and together, let's create cinematic masterpieces that inspire and entertain."
+}
+
+export const mentors = [
+    {
+        name: 'MS. Priyanka Bamne',
+        desg: 'Assistant Professor',
+        dept: 'CSE',
+        image: 'https://res.cloudinary.com/deeqsba43/image/upload/w_1000/q_auto:good/f_auto/v1714017856/gsph/images/hki3bwzjxcrwxdmu1kq3.jpg',
+        ph: '0731-2582463',
+        email: 'pbamne@sgsits.ac.in'
+    },
+    {
+        name: 'Mr. Ashwin Shrivastava',
+        desg: 'Assistant Professor',
+        dept: 'ETC',
+        image: 'https://res.cloudinary.com/deeqsba43/image/upload/w_1000/q_auto:good/f_auto/v1714017943/gsph/images/zzxiip5hu2p89asrsmsx.jpg',
+        ph: '0731-2582670',
+        email: 'ashwinshrivastava88@gmail.com'
     }
 ]

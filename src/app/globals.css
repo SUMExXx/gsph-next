@@ -38,6 +38,19 @@
   }
 } */
 
+/* Custom Cursor */
+
+/* *,
+*:before,
+*:after {
+  @apply cursor-default;
+}
+
+a,
+button {
+  @apply cursor-pointer;
+} */
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

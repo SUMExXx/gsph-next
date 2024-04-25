@@ -11,7 +11,7 @@ import Menu from './Menu';
 const Navbar = () => {
 
   return (
-    <nav className='top-0 left-0 right-0 z-20 flex fixed justify-between bg-white text-black w-full lg:px-10 px-2 h-[60px] md:h-[84px]'>
+    <nav className='top-0 left-0 right-0 z-20 flex fixed justify-between bg-white text-black w-full lg:px-10 px-2 h-[60px] md:h-[84px]' id='navbar_container'>
         
         <Link href={'/'} className='flex items-center gap-2 md:gap-4 min-w-[110px]'>
             <div className='flex items-center'>

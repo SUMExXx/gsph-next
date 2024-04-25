@@ -319,4 +319,32 @@ export const dep: Dep[]= [
   },
 ]
 
+interface Junior{
+  name: string,
+  image: string,
+  domain: string,
+  branch: string,
+  instagram: string,
+  linkedin: string
+}
+
+export const juniors: Junior[] = [
+  {
+    name: 'Puneet',
+    image: '',
+    domain: '',
+    branch: '',
+    instagram: '',
+    linkedin: ''
+  },
+  {
+    name: 'Aditya',
+    image: '',
+    domain: '',
+    branch: '',
+    instagram: '',
+    linkedin: ''
+  },
+] 
+
 export default dep

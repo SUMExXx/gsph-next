@@ -5,6 +5,7 @@ import "./globals.css";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer"
 import { webData } from "@/data/website";
+import Spinner from "./components/spinner";
 
 const josefinSans = Josefin_Sans({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
             {children}
           </div>
         <Footer/>
+        {/* <Spinner/> */}
       </body>
     </html>
   );

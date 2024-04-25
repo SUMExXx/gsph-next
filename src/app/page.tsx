@@ -1,4 +1,4 @@
-import { socialMediaReach, updateableLinks } from "@/data/website";
+import { customColors, socialMediaReach, updateableLinks } from "@/data/website";
 import Image from "next/image";
 import getSubscriberCount from "@/app/utils/getSubscriberCount";
 import HomeSocialSection from "@/sections/HomeSocialSection";
@@ -11,10 +11,12 @@ export default function Home() {
 
   return (
     <main className="w-full text-black">
-      <HeroVideo/>
+      <section id='hero_video'>
+        <HeroVideo/>
+      </section>
       <section id="latest_content">
-        <div className="w-full bg-blue-400 md:py-10 py-6 flex flex-col justify-center items-center gap-4 md:gap-8">
-          <Reveal><h3 className="text-2xl md:text-3xl font-bold">Latest from GSPH</h3></Reveal>
+        <div className="w-full md:py-10 py-6 flex flex-col justify-center items-center gap-4 md:gap-8" style={{background: `linear-gradient(to bottom, ${customColors.home[0]}, ${customColors.home[1]}), url('/images/doodleback3.png') center center / contain no-repeat`}}>
+          <Reveal><h3 className="text-2xl md:text-3xl font-bold" style={{ filter: 'drop-shadow(0 0 7px rgba(255, 255, 255, 0.7))' }}>Latest from GSPH</h3></Reveal>
           <Reveal>
             <div className="w-full flex justify-center items-center">
               <iframe width="560" height="315" src={updateableLinks.latestVideo} className='md:rounded-2xl rounded-lg md:w-[560px] md:h-[315px] w-[398px] h-[223px]' title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen>
@@ -25,14 +27,14 @@ export default function Home() {
         </div>
       </section>
       <section id="social_media_reach">
-        <div className="w-full bg-pink-400 md:py-10 py-6 flex flex-col justify-center items-center gap-4 md:gap-8">
-          <Reveal><h3 className="text-2xl md:text-3xl font-bold">Our Social Media Reach</h3></Reveal>
+        <div className="w-full bg-gradient-to-b md:py-10 py-6 flex flex-col justify-center items-center gap-4 md:gap-8" style={{background: `linear-gradient(to bottom, ${customColors.home[1]}, ${customColors.home[2]}), url('/images/doodleback4.png') center center / contain no-repeat`}}>
+          <Reveal><h3 className="text-2xl md:text-3xl font-bold" style={{ filter: 'drop-shadow(0 0 7px rgba(255, 255, 255, 0.7))' }}>Our Social Media Reach</h3></Reveal>
           <HomeSocialSection/>
         </div>
       </section>
       <section id='featured'>
-        <div className="w-full bg-green-400 md:py-10 py-6 flex flex-col justify-center items-center gap-4 md:gap-8 overflow-hidden">
-          <Reveal><h3 className="text-2xl md:text-3xl font-bold">Featured from GSPH</h3></Reveal>
+        <div className="w-full bg-gradient-to-b from-pink-400 to-teal-400 md:py-10 py-6 flex flex-col justify-center items-center gap-4 md:gap-8 overflow-hidden" style={{background: `linear-gradient(to bottom, ${customColors.home[2]}, ${customColors.home[3]}), url('/images/doodleback3.png') center center / contain no-repeat`}}>
+          <Reveal><h3 className="text-2xl md:text-3xl font-bold" style={{ filter: 'drop-shadow(0 0 7px rgba(255, 255, 255, 0.7))' }}>Featured from GSPH</h3></Reveal>
           <HomeCarousel/>
         </div>
       </section>
