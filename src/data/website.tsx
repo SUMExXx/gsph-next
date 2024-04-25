@@ -248,7 +248,7 @@ export const aboutUsContent = {
 
 export const mentors = [
     {
-        name: 'MS. Priyanka Bamne',
+        name: 'Mrs. Priyanka Bamne',
         desg: 'Assistant Professor',
         dept: 'CSE',
         image: 'https://res.cloudinary.com/deeqsba43/image/upload/w_1000/q_auto:good/f_auto/v1714017856/gsph/images/hki3bwzjxcrwxdmu1kq3.jpg',
