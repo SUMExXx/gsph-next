@@ -20,7 +20,7 @@ const About = () => {
             </div>
             <Reveal>
                 <div className="p-4 md:p-16 flex md:flex-row flex-col gap-10">
-                    <Image src={club.teamImage} width={600} height={400} alt='team image' className="rounded-xl"/>
+                    <Image src={club.teamImage} width={600} height={400} alt='team image' className="rounded-xl cursor-pointer"/>
                     <p className={`${lora.className} font-medium italic text-center`}>{aboutUsContent.aboutUs}</p>
                 </div>
             </Reveal>
