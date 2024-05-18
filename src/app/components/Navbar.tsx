@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className='top-0 left-0 right-0 z-20 flex fixed justify-between bg-white text-black w-full lg:px-10 px-2 h-[60px] md:h-[84px]' id='navbar_container'>
         
-        <Link href={'/'} className='flex items-center gap-2 md:gap-4 min-w-[110px]'>
+        <Link rel="canonical" href={'/'} className='flex items-center gap-2 md:gap-4 min-w-[110px]'>
             <div className='flex items-center'>
                 <Image src={'/icons/GSPH_Logo.png'} width={60} height={60} alt={'GSPH logo'} className='md:w-[60px] md:h-[60px] w-[40px] h-[40px]'></Image>
             </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
 
                 <div className='items-center md:gap-8 gap-2 font-medium md:flex hidden'>
                     <div className='flex justify-center items-center'>
-                        <Link href={`/events#${navbarLatest.id}`} className='flex justify-center items-baseline px-2 pt-2 pb-1 gap-1 rounded-md bg-[#CBE6E8] transition ease-in-out hover:-translate-y-1'>
+                        <Link rel="canonical" href={`/events#${navbarLatest.id}`} className='flex justify-center items-baseline px-2 pt-2 pb-1 gap-1 rounded-md bg-[#CBE6E8] transition ease-in-out hover:-translate-y-1'>
                             <h1 className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent'>POV</h1>
                             <Image src="/icons/sparkles.svg" height={16} width={16} alt='New Event'/>
                         </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
                         {
                             navbarLinks.map(item => (
                                 <li key={crypto.randomUUID()} className='transition ease-in-out hover:scale-110 hover:animate-text hover:bg-gradient-to-r hover:from-[#A055C2] hover:via-[#D4256F] hover:to-[#F59009] hover:bg-clip-text hover:text-transparent'>
-                                    <Link href={item.link}>{item.text}</Link>
+                                    <Link rel="canonical" href={item.link}>{item.text}</Link>
                                 </li>
                             ))
                         }

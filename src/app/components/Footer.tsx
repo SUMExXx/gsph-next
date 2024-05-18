@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div className='flex gap-6 justify-center items-center'>
                     {
-                        Object.values(socialLinks).map(link => (<Link style={{filter: 'invert(80%)'}} key={crypto.randomUUID()} href={link.url} target='_blank'><Image src={'/icons/'+link.fiIcon} width={24} height={24} alt={link.platform}/></Link>))
+                        Object.values(socialLinks).map(link => (<Link rel="canonical" style={{filter: 'invert(80%)'}} key={crypto.randomUUID()} href={link.url} target='_blank'><Image src={'/icons/'+link.fiIcon} width={24} height={24} alt={link.platform}/></Link>))
                     }
                 </div>
             </div>
@@ -33,7 +33,7 @@ const Footer = () => {
                     {
                         navbarLinks.map(item => {
                             return(
-                                <li key={crypto.randomUUID()}><Link href={item.link}>{item.text}</Link></li>
+                                <li key={crypto.randomUUID()}><Link rel="canonical" href={item.link}>{item.text}</Link></li>
                             )
                         })
                     }
@@ -45,7 +45,7 @@ const Footer = () => {
                     {
                         events.map((event) => {
                             return(
-                                <li key={crypto.randomUUID()}><Link href={`/events#${event.id}`}>{event.name}</Link></li>
+                                <li key={crypto.randomUUID()}><Link rel="canonical" href={`/events#${event.id}`}>{event.name}</Link></li>
                             )
                         })
                     }
@@ -56,19 +56,19 @@ const Footer = () => {
                 <ul className='flex flex-col text-gray-400 gap-1'>
                     <li className='flex flex-row gap-2 align-middle'>
                         <Image src="/icons/marker.png" style={{filter: 'invert(80%)'}} alt='location' height={16} width={16} className='object-contain'/>
-                        <Link href={contact.location}>{contact.address}</Link>
+                        <Link rel="canonical" href={contact.location}>{contact.address}</Link>
                     </li>
                     <li className='flex flex-row gap-2 align-middle'>
                         <Image src="/icons/envelope.png" style={{filter: 'invert(80%)'}} alt='location' height={16} width={16} className='object-contain'/>
-                        <Link href={'mailto:'+contact.email}>{contact.email}</Link>
+                        <Link rel="canonical" href={'mailto:'+contact.email}>{contact.email}</Link>
                     </li>
                     <li className='flex flex-row gap-2 align-middle '>
                         <Image src="/icons/phone.png" style={{filter: 'invert(80%)'}} alt='location' height={16} width={16} className='object-contain'/>
-                        <Link href={'tel:'+contact.call[0].phoneNum}>{contact.call[0].name}: {contact.call[0].phoneNum}</Link>
+                        <Link rel="canonical" href={'tel:'+contact.call[0].phoneNum}>{contact.call[0].name}: {contact.call[0].phoneNum}</Link>
                     </li>
                     <li className='flex flex-row gap-2 align-middle '>
                         <Image src="/icons/phone.png" style={{filter: 'invert(80%)'}} alt='location' height={16} width={16} className='object-contain'/>
-                        <Link href={'tel:'+contact.call[1].phoneNum}>{contact.call[1].name}: {contact.call[1].phoneNum}</Link>
+                        <Link rel="canonical" href={'tel:'+contact.call[1].phoneNum}>{contact.call[1].name}: {contact.call[1].phoneNum}</Link>
                     </li>
                 </ul>
             </div>
